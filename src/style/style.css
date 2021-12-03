@@ -1,0 +1,37 @@
+body {
+  font: 14px "Open Sans", sans-serif !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/* Inicio Estilo página DashBoard e suas seções  */
+.page-events{
+    background-color: #F2F3F5 !important;
+    height: 100vh;
+}
+.events{
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+/* Fim Estilo página DashBoard e suas seções */
+
+
+
+/* Início Estilo componente card */
+.div-card figure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-card {
+    width: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.div-card{
+    background-color: #FFFFFF;
+}
+.content{
+    margin-left: 20px;
+}
+/* Fim Estilo componente card */
