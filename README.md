@@ -15,7 +15,7 @@
 
 ## Telas
 <p alinght='left'>
-    <img alt="Mobile" src="./src/pictures/mobile.png" width="100px" />
+    <img alt="Mobile" src="./src/pictures/mobile.png" width="150px" />
     <img alt="Desktop" src="./src/pictures/desktop.png" height="70%" width="70%"/>
 </p>
 
