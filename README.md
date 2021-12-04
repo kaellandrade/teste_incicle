@@ -14,9 +14,9 @@
 <hr>
 
 ## Telas
-<p float='left'>
+<p alinght='left'>
     <img alt="Mobile" src="./src/pictures/mobile.png" width="250px" />
-    <img alt="Desktop" src="./src/pictures/desktop.png" height="80%" width="40%"/>
+    <img alt="Desktop" src="./src/pictures/desktop.png" height="80%" width="60%"/>
 </p>
 
 ## Referências
