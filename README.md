@@ -14,10 +14,24 @@
 
 ## Telas
 <p flaot='left'>
-    <img alt="Login" src="./pictures/login.png" width="250px" />
-    <img alt="Profile" src="./pictures/register.png" width="250px" />
+    <img alt="Mobile" src="./src/pictures/mobile.png" width="250px" />
+    <img alt="Desktop" src="./src/pictures/desktop.png" height="50%" width="50%"/>
 </p>
 
-## Ferramentas Usadas
-
-- [Rocket 💻](https://www.notion.so/kaell/Implementar-Logins-Alternativos-b1c1c6f8636c490e84af31a1ea7e2359#0c6e38e2cc0b422ca994fdfd08f8efc6)
+## Referências
+### Softwares usados
+- [Linux Mint Cinnamon 💿](https://linuxmint.com/download.php)
+- [Visual Studio Code 💻](https://code.visualstudio.com/)
+- [Inkscape 🖼️](https://inkscape.org/pt-br/)
+- [Chrome *(Version 96.0.4664.45)* 🌍](https://inkscape.org/pt-br/)
+- [Edge *(Version 96.0.1054.43)*  🌍](https://www.microsoft.com/pt-br/edge)
+- [Firefox *(Version 94.0)* 🌍](https://www.mozilla.org/pt-BR/firefox/new/)
+### Bibliotecas
+- [Bootstrap 🅱️](https://getbootstrap.com/)
+- [React ☸️](https://pt-br.reactjs.org/)
+- [Fontawesome 😎](https://fontawesome.com/g/)
+- [Unsplash 🖼️](https://unsplash.com/)
+### Linguagens
+- JavaScript
+- HTML
+- CSS
