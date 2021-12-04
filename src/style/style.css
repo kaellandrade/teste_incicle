@@ -3,35 +3,68 @@ body {
   margin: 0px !important;
   padding: 0px !important;
 }
-/* Inicio Estilo página DashBoard e suas seções  */
-.page-events{
-    background-color: #F2F3F5 !important;
-    height: 100vh;
+button {
+  font-weight: bolder !important;
 }
-.events{
-    padding: 10px;
-    /* border: 1px solid red; */
+
+/* Inicio Estilo página DashBoard e suas seções  */
+.page-events {
+  background-color: #f2f3f5 !important;
+}
+.events {
+  /* padding: 10px; */
+  /* border: 1px solid red; */
 }
 /* Fim Estilo página DashBoard e suas seções */
 
-
-
-/* Início Estilo componente card */
-.div-card figure{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+/* Início Estilo componentes cards */
+.div-card figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid blue; */
+  box-shadow: 0px 4px 5px #dedfe1;
+}
+.div-card figcaption{
+    font-weight: lighter;
+    font-size: 1.3em;
 }
 .img-card {
-    width: 200px;
-    width: 200px;
-    margin: 10px;
+  width: 150px;
+  margin: 10px;
 }
 
-.div-card{
-    background-color: #FFFFFF;
+.div-card {
+  background-color: #ffffff;
 }
-.content{
-    margin-left: 20px;
+.content {
+  margin-left: 20px;
 }
-/* Fim Estilo componente card */
+
+.card-info {
+  color: #383737;
+  border: 2px solid #dfd5c6;
+  width: 100%;
+  padding: 20px 18px 20px;
+  background-color: #fff2de;
+}
+.card-info .text-info {
+  color: #707070 !important;
+  font-size: 1em;
+  line-height: 150%;
+}
+.event {
+  background-color: #ee8686;
+  color: black;
+  font-weight: bold;
+  padding: 2px 5px 2px;
+  font-size: 0.9em;
+}
+.release {
+  background-color: #3489b1;
+  color: #FFFF;
+  font-weight: bold;
+  padding: 2px 5px 2px;
+  font-size: 0.9em;
+}
+/* Fim Estilo componentes cards */
