@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg";
 /**
  * Componente Header.
  */
-const Header = () => {
+const Header = _ => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-light">
