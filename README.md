@@ -11,6 +11,7 @@
 </div>
 
 <hr>
+
 ## Telas
 <p flaot='left'>
     <img alt="Login" src="./pictures/login.png" width="250px" />
