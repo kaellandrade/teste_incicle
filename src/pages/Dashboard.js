@@ -5,8 +5,8 @@ import Container from "../layouts/Container";
 import Column from "../layouts/Column";
 import Row from "../layouts/Row";
 import CardInfo from "../components/CardInfo";
-import ManagementBoard from "../components/ManagementBoard";
-import CardVisit from "../components/CardVisit";
+import Board from "../components/Board";
+import CardBoard from "../components/CardBoard";
 import SelectComponent from "../components/SelectComponent";
 import IconButton from "../components/IconButton";
 /**
@@ -14,18 +14,21 @@ import IconButton from "../components/IconButton";
  * através dos dados de entrada.
  */
 const renderCard = ({ data }) => {
-  return data.map(({ title, description, type, date, files }, index) => {
-    return (
-      <Card
-        title={title}
-        description={description}
-        type={type}
-        srcImg={files[0].file}
-        date={date}
-        key={index}
-      />
-    );
-  });
+  return data.map(
+    ({ title, description, type, date, files, common }, index) => {
+      return (
+        <Card
+          title={title}
+          description={description}
+          common={common}
+          type={type}
+          srcImg={files[0].file}
+          date={date}
+          key={index}
+        />
+      );
+    }
+  );
 };
 
 /**
@@ -38,9 +41,9 @@ const Dashboard = (_) => {
         <Container Classname="container">
           <Row>
             <Column classStyle="col-12 col-md-12 col-lg-8">
-              <Row className='mb-2'>
+              <Row className="mb-2">
                 <Column classStyle="col-4">
-                  <h1 className='title'>Endomarketing</h1>
+                  <h1 className="title">Endomarketing</h1>
                 </Column>
                 <Column classStyle="col-8 d-flex justify-content-end align-self-center">
                   <SelectComponent
@@ -61,7 +64,7 @@ const Dashboard = (_) => {
                 </Column>
               </Row>
 
-              <div className="events">{renderCard(DADOS)}</div>
+              <div>{renderCard(DADOS)}</div>
             </Column>
             <Column classStyle="col-12 col-md-12 col-lg-4">
               <div className="side-bar">
@@ -72,11 +75,11 @@ const Dashboard = (_) => {
                   usualmente confundido com Endomarketing mesmo sendo conceitos
                   diferentes.
                 </CardInfo>
-                <ManagementBoard title="Quadros de Gestão à vista">
-                  <CardVisit />
-                  <CardVisit />
-                  <CardVisit />
-                </ManagementBoard>
+                <Board title="Quadros de Gestão à vista">
+                  <CardBoard />
+                  <CardBoard />
+                  <CardBoard />
+                </Board>
               </div>
             </Column>
           </Row>
