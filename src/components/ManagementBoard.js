@@ -1,7 +1,7 @@
 import React from "react";
 
-const components = () => {
+const ManagementBoard = () => {
   return <h1>Management board</h1>;
 };
 
-export default components;
+export default ManagementBoard;
