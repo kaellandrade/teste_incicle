@@ -1,10 +1,10 @@
 import React from "react";
 
-const IconButton = (props) => {
+const IconButton = ({className, text, icon}) => {
   return (
-    <button className={props.className}>
-      {props.text}
-      <i className={props.icon}/>
+    <button className={className}>
+      {text}
+      <i className={icon}/>
     </button>
   );
 };
