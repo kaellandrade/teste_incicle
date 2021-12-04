@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ * Card de informação.
+ */
 const CardInfo = ({ children, title }) => {
   return (
     <div className="card-info">
