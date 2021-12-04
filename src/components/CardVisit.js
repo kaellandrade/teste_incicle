@@ -3,10 +3,12 @@ import IconButton from "../components/IconButton";
 const CardVisit = () => {
   return (
     <div className="demo">
+      <div className='title-commercial d-flex align-items-center'>
         <small>Demonstrativo comercial</small>
         <div className="button-group">
           <IconButton className="btn-demo" icon="fas fa-globe-asia" />
           <IconButton className="btn-demo" icon="fas fa-ellipsis-h" />
+        </div>
       </div>
       <div className="img-demo">
         <img
