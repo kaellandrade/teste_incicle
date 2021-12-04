@@ -1,11 +1,12 @@
 <div align="center">
     <h1>Micael Andrade Dos Santos</h1>
-<div style="padding-top: 0px; padding-bottom:0px">
-    <img alt="Perfil imagem" src="https://avatars.githubusercontent.com/u/51521476?s=400&u=d6249bd8df374ba8ac95808613f136788d25d919&v=4" width="40%" height='40%' 
-    style="border-radius:100%"
-    />
+    <div>
+        <img alt="Perfil imagem" src="https://avatars.githubusercontent.com/u/51521476?s=400&u=d6249bd8df374ba8ac95808613f136788d25d919&v=4" width="100px" height='100px' 
+        style="border-radius:100%"
+        />
+        <h2>Email</h2>
+    </div>
     <img src="https://github-readme-stats.vercel.app/api?username=kaellandrade&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&custom_title=My%20GitHub%20Stats"/>
-</div>
 </div>
 
 <hr>
