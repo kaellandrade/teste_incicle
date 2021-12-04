@@ -27,7 +27,7 @@ button {
 }
 .div-card figcaption{
     font-weight: lighter;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 .img-card {
   width: 150px;
@@ -40,7 +40,38 @@ button {
 .content {
   margin-left: 20px;
 }
-
+.card-Management{
+    background-color: #FDFDFD;
+    padding: 10px 5px 10px;
+    margin-top: 10px;
+}
+.demo{
+    position: relative;
+    background-color: #E8F1F5;
+    padding: 10px 5px 10px;
+    margin: 10px 5px 10px;
+}
+.img-demo{
+    margin-top: 10px;
+}
+.btn-demo{
+    border-radius: 100% !important;
+    background-color: #FFFF !important;
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    border: none;
+    transition: 1s;
+}
+.btn-demo:hover{
+    background-color: #7c7872 !important;
+    color: #FFF ;
+}
+.button-group{
+    position: absolute;
+    top: 5px;
+    right: 3px;
+}
 .card-info {
   color: #383737;
   border: 2px solid #dfd5c6;
@@ -53,6 +84,7 @@ button {
   font-size: 1em;
   line-height: 150%;
 }
+
 .event {
   background-color: #ee8686;
   color: black;
@@ -66,5 +98,9 @@ button {
   font-weight: bold;
   padding: 2px 5px 2px;
   font-size: 0.9em;
+}
+.title-managementBoard{
+    color: #474747b0;
+    font-weight: bold;
 }
 /* Fim Estilo componentes cards */
