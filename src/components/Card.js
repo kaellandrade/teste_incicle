@@ -12,12 +12,12 @@ const Card = ({ srcImg, alt, title, type, date, description }) => {
       <figure>
         <Container className="container">
           <Row>
-            <Column classStyle="col-4 col-md-2">
+            <Column classStyle="col-3 col-md-2">
               <div className="div-img">
                 <img className="img-fluid img-card" alt={alt} src={srcImg} />
               </div>
             </Column>
-            <Column classStyle="col-8 col-md-10">
+            <Column classStyle="col-9 col-md-10">
               <div className="content">
                 <h3 className="title">{title}</h3>
                 <span className={type}>{type.toUpperCase()} </span>
