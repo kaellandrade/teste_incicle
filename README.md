@@ -13,6 +13,11 @@
 
 <hr>
 
+## Executando o projeto 😄
+- Instale as dependências com `yarn` ou `npm i`
+- Rode o projeto com `yarn start` ou `npm start`
+
+
 ## Telas
 <p alinght='left'>
     <img alt="Mobile" src="./src/pictures/mobile.png" width="150px" />
